@@ -42,15 +42,15 @@ sample replies.
 
 ## Try it on GitHub Pages
 
-The hosted demo is a static build (`npm run build:demo`). The Research Partner
+Open the hosted demo: [https://aligranett.github.io/stone_llm/](https://aligranett.github.io/stone_llm/)
+
+That site is a static build (`npm run build:demo`). The Research Partner
 answers in the browser with the same sample replies as mock mode. No server
 runs, and no API key is included. Pushing to `main` deploys it with
-`.github/workflows/pages.yml`.
+`.github/workflows/pages.yml`. Pages is set to publish from GitHub Actions.
 
-In the repository on GitHub, open **Settings → Pages** and set **Source** to
-**GitHub Actions** if the site is not already publishing. The interface is the
-full study UI: stones, experiments, and the Research Partner chat. A banner at
-the top says the replies are samples.
+The interface is the full study UI: stones, experiments, and the Research
+Partner chat. A banner at the top says the replies are samples.
 
 ## Where things are configured
 
